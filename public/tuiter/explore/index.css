@@ -1,0 +1,104 @@
+.wd-body {
+  background-color: black;
+  margin-left: 40px;
+}
+
+.wd-border {
+  border: solid rgb(47, 51, 54);
+  border-width: thin;
+  padding-left: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wd-form {
+  display: flex;
+}
+
+.wd-input {
+  background-color: rgb(47, 51, 54);
+  color: white;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+}
+
+.wd-settings-link {
+  display: inline-block;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-decoration: none;
+  color: white;
+  content: "\2699";
+  font-size: 28px;
+}
+
+.wd-nav {
+  display: flex;
+  padding-top: 16px;
+}
+
+.wd-nav-item {
+  padding: 16px;
+  font-size: 15px;
+  color: rgb(110, 118, 125);
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.wd-nav-item-active {
+  color: rgb(29, 161, 242);
+  border-bottom: 3px solid rgb(29, 161, 242);
+}
+
+.wd-suggested-posts {
+  padding-top: 5px;
+}
+
+.wd-topic {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+
+}
+
+.wd-title {
+  font-size: 13px;
+  color: white;
+}
+
+.wd-tuits-count {
+  font-size: 13px;
+  color: rgb(110, 118, 125);
+}
+.wd-author {
+  font-size: 13px;
+  color: white;
+  margin-right: 16 px;
+}
+
+.wd-float-right {
+
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  margin-right: 16px;
+  margin-left: auto;
+}
+.wd-float-left {
+   float: left;
+   font-size: 13px;
+   color: white;
+}
+
+.wd-float-done {
+   clear: both;
+}
+.wd-grid-row {
+   clear: both;
+}
+
+
