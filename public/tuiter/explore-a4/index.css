@@ -1,0 +1,14 @@
+.fa-stack.wd-small {
+    font-size: 0.5em;
+}
+@media (max-width: 768px) {
+    .wd-cog {
+        padding-left: 6px;
+    }
+}
+@media (min-width: 992px)
+and (max-width: 1200px) {
+    .btn.wd-media-query {
+        width: 120% !important;
+    }
+}
