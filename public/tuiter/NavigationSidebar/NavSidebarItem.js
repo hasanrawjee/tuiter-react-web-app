@@ -1,5 +1,5 @@
 function generateStackIcon(sidebar) {
-    return(`
+    return (`
         <span class="fa-stack wd-small">
             <i class="${sidebar.iconMain} fa-stack-2x" style="text-align: left"></i>
             <i class="${sidebar.iconSub} fa-stack-1x fa-inverse" style="width: 80%"></i>
@@ -8,12 +8,12 @@ function generateStackIcon(sidebar) {
 }
 const navSidebarItem = (sidebar, active) => {
     let icon;
-    if(sidebar.stack) {
+    if (sidebar.stack) {
         icon = generateStackIcon(sidebar)
     } else {
         icon = `<i class="${sidebar.iconMain}"></i>`
     }
-    return(`
+    return (`
         <a href="${sidebar.source}" class="list-group-item ${active}">
             <div class="row">
                 <div class="col-xl-2">
@@ -29,34 +29,3 @@ const navSidebarItem = (sidebar, active) => {
 }
 
 export default navSidebarItem;
-
-// For text only
-// $('#wd-nav').append(`
-//     ${navSidebarItem(
-//         // {
-//         //     active: false,
-//         //     stack: false,
-//         //     source: "/",
-//         //     iconMain: "fab fa-twitter",
-//         //     iconSub: "",
-//         //     name: "",
-//         // },
-//         // {
-//         //     active: false,
-//         //     stack: false,
-//         //     source: "../HomeScreen/index.html",
-//         //     iconMain: "fas fa-home",
-//         //     iconSub: "",
-//         //     name: "Home",
-//         // },
-//         //
-//         {
-//             active: false,
-//             stack: true,
-//             source: "/",
-//             iconMain: "fas fa-circle",
-//             iconSub: "fas fa-ellipsis-h",
-//             name: "More",
-//         }
-//     )}
-// `)
