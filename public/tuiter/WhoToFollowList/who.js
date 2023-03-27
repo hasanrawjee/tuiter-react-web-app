@@ -9,7 +9,7 @@ export default whoItem = [
     {   avatarIcon: '../../images/virgingalactic.jpeg',
         userName: 'Virgin Galactic',
         handle: 'virgingalactic', },
-    {   avatarIcon: '../../images/nasa.png',
+    {   avatarIcon: '../../images/nasa-logo.jpg',
         userName: 'NASA',
         handle: 'NASA', },
     {   avatarIcon: '../../images/tesla.png',

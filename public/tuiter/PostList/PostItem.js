@@ -1,9 +1,6 @@
-/* eslint-env jquery */
 const PostItem = (post) => {
-    // Mark part of the title text as blue
     let title = post.title;
     let newTitle = title.replace(post.markText, '<span class="text-primary">' + post.markText + '</span>');
-    // Hiding post body when there is no post title and post content, and edit post image rounded corner accordingly
     let postImageClass = "rounded-4" ;
     let postBodyClass = "d-none";
     if (post.postTitle || post.postContent) {

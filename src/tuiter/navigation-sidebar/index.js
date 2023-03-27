@@ -10,7 +10,7 @@ const NavigationSidebar = () => {
     const active = paths[2];
     return (
         <div className="list-group sticky-top">
-            <Link to="/" className="list-group-item">Labs</Link>
+            <Link to="/a7" className="list-group-item">Labs</Link>
             {
                 sidebars.map(sidebar => {
                     return (
