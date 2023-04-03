@@ -1,5 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faThumbsDown } from "@fortawesome/free-solid-svg-icons";
+import {updateTuitThunk} from "../../services/tuits-thunks";
+import {useDispatch} from "react-redux";
 
 const TuitsStats = (
     {
@@ -19,27 +21,53 @@ const TuitsStats = (
         }
     }
 ) => {
+const dispatch = useDispatch();
+
+    const clickLikeHeartHandler = () => {
+        const updatedTuit = {
+            ...tuit,
+            likes : tuit.liked ? tuit.likes - 1 : tuit.likes + 1,
+            liked : !tuit.liked
+        };
+        dispatch(updateTuitThunk(updatedTuit))
+    }
+
+    const clickDislikeThumbHandler = () => {
+        const updatedTuit = {
+            ...tuit,
+            dislikes : tuit.disliked ? tuit.dislikes - 1 : tuit.dislikes + 1,
+            disliked : !tuit.disliked
+        };
+        dispatch(updateTuitThunk(updatedTuit))
+    }
+
     return(
         <>
-            <div className="row">
-                <a href="/#" className="col text-secondary text-decoration-none">
+            <div className="row justify-content-evenly">
+                <button className="col text-secondary border-0 bg-transparent text-start">
                     <FontAwesomeIcon icon="fa-regular fa-comment" className="pe-1 pe-sm-2" />
                     <span>{tuit.replies}</span>
-                </a>
-                <a href="/#" className="col text-secondary text-decoration-none">
+                </button>
+                <button className="col text-secondary border-0 bg-transparent text-start">
                     <FontAwesomeIcon icon="fa-solid fa-retweet" className="pe-1 pe-sm-2" />
                     <span>{tuit.retuits}</span>
-                </a>
-                <a href="/#" className="col text-secondary text-decoration-none">
-                    {tuit.liked && <FontAwesomeIcon icon={faHeart} color={ 'red' } className="pe-1 pe-sm-2" />}
+                </button>
+                <button className="col text-secondary border-0 bg-transparent text-start" onClick={clickLikeHeartHandler}>
+                    {tuit.liked && <FontAwesomeIcon icon={faHeart} color={ 'red' } className="pe-1 pe-sm-2"/>}
                     {!tuit.liked && <FontAwesomeIcon icon="fa-regular fa-heart" className="pe-1 pe-sm-2" />}
                     <span>{tuit.likes}</span>
-                </a>
-                <a href="/#" className="col text-secondary text-decoration-none">
+                </button>
+                <button className="col text-secondary border-0 bg-transparent text-start" onClick={clickDislikeThumbHandler}>
+                    {tuit.disliked && <FontAwesomeIcon icon={faThumbsDown} color={ 'gray' } className="pe-1 pe-sm-2"/>}
+                    {!tuit.disliked && <FontAwesomeIcon icon="fa-regular fa-thumbs-down" className="pe-1 pe-sm-2"/>}
+                    <span>{tuit.dislikes}</span>
+                </button>
+                <button className="col text-secondary border-0 bg-transparent text-start">
                     <FontAwesomeIcon icon="fa-solid fa-arrow-up-from-bracket" className="pe-1 pe-sm-2" />
-                </a>
+                </button>
             </div>
         </>
     )
 }
+
 export default TuitsStats;

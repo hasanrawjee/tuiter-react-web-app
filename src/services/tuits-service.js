@@ -9,7 +9,8 @@ export const createTuit = async (tuit) => {
 }
 export const findTuits  = async () => {
     const response = await axios.get(TUITS_API);
-    return response.data;
+    const tuits = response.data;
+    return tuits;
 }
 
 export const deleteTuit = async (tid) => {
