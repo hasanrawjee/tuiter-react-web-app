@@ -1,0 +1,112 @@
+[
+  {
+    "_id": 123,
+    "userAvatar": "spacex.jpeg",
+    "userName": "SpaceX",
+    "userHandle": "SpaceX",
+    "time": "23h",
+    "title": "Dennis and Akiko Tito are the first two crewmembers on Starship’s second commercial spaceflight around the Moon → spacex.com/updates",
+    "markText": "spacex.com/updates",
+    "innerPost": {
+      "type": "image",
+      "tweetId": null,
+      "postImage": "post-dennis-akikko.jpeg",
+      "postTitle": "",
+      "postContent": "",
+      "postLinkName": "",
+      "postLink": ""
+    },
+    "reply": "595",
+    "retweet": "1,168",
+    "like": "11.1k",
+    "retweeted": "Elon Musk"
+  },
+  {
+    "_id": 234,
+    "userAvatar": "avatar-elonmusk.jpeg",
+    "userName": "Elon Musk",
+    "userHandle": "elonmusk",
+    "time": "15h",
+    "title": "We might need a different name, as this is basically just Starlink with roaming capability, so you can take your terminal anywhere.",
+    "markText": "",
+    "innerPost": {
+      "type": "tweet",
+      "tweetId": 345,
+      "postImage": "",
+      "postTitle": "",
+      "postContent": "",
+      "postLinkName": "",
+      "postLink": ""
+    },
+    "reply": "5,346",
+    "retweet": "1,601",
+    "like": "19.2K",
+    "retweeted": ""
+  },
+  {
+    "_id": 345,
+    "userAvatar": "spacex.jpeg",
+    "userName": "SpaceX",
+    "userHandle": "SpaceX",
+    "time": "16h",
+    "title": "Starlink for RVs now has over 100,000 customers! Access high-speed, low-latency internet on an as-needed basis anywhere Starlink provides active coverage → starlink.com/rv",
+    "markText": "starlink.com/rv",
+    "innerPost": {
+      "type": "",
+      "tweetId": null,
+      "postImage": "",
+      "postTitle": "",
+      "postContent": "",
+      "postLinkName": "",
+      "postLink": ""
+    },
+    "reply": "654",
+    "retweet": "104",
+    "like": "5,947",
+    "retweeted": ""
+  },
+  {
+    "_id": 456,
+    "userAvatar": "avatar-elonmusk.jpeg",
+    "userName": "Elon Musk",
+    "userHandle": "elonmusk",
+    "time": "23h",
+    "title": "Amazing show about @Inspiration4x mission!",
+    "markText": "@Inspiration4x",
+    "innerPost": {
+      "type": "third-party",
+      "tweetId": null,
+      "postImage": "post-elonmusk.jpeg",
+      "postTitle": "Countdown: Inspiration4x Mission to Space | Netflix Office Site",
+      "postContent": "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space...",
+      "postLinkName": "netflix.com",
+      "postLink": "https://www.netflix.com/"
+    },
+    "reply": "4.2K",
+    "retweet": "3.5K",
+    "like": "37.5K",
+    "retweeted": ""
+  },
+  {
+    "_id": 567,
+    "userAvatar": "avatar-newyorkpost.jpeg",
+    "userName": "New York Post",
+    "userHandle": "nypost",
+    "time": "23h",
+    "title": "Grimes seen reading Karl Marx following split with world's richest man Elon Musk trib.al/nx2Gfaq",
+    "markText": "trib.al/nx2Gfaq",
+    "innerPost": {
+      "type": "image",
+      "tweetId": null,
+      "postImage": "post-newyorkpost.jpeg",
+      "postTitle": "",
+      "postContent": "",
+      "postLinkName": "",
+      "postLink": ""
+    },
+    "reply": "703",
+    "retweet": "1,689",
+    "like": "3,764",
+    "retweeted": ""
+  }
+]

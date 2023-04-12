@@ -1,0 +1,30 @@
+body{
+    font-family: "Apple Braille", system-ui;
+    background-color: black;
+    color: white;
+}
+.wd-border {
+    padding-top: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-color: rgb(47, 51, 54);
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+}
+.wd-float-left{
+    float: left;
+}
+.wd-float-right{
+    float: right;
+}
+.wd-float-done {
+    clear: both;
+}
+.wd-margin-left {
+    margin-left: 16px;
+}
+.wd-fg-color-light-gray {
+    color: lightgray;
+}

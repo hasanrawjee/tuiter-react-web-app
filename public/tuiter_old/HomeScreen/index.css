@@ -1,0 +1,12 @@
+.fa-stack.wd-small {
+    font-size: 0.5em;
+}
+.wd-rounded-top {
+    overflow: hidden;
+    border-radius: 1rem 1rem 0 0;
+}
+@media (max-width: 768px) {
+    .wd-cog {
+        padding-left: 6px;
+    }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "_id": 123,
+    "name": "for-you",
+    "last": false
+  },
+  {
+    "_id": 234,
+    "name": "trending",
+    "last": false
+  },
+  {
+    "_id": 345,
+    "name": "news",
+    "last": false
+  },
+  {
+    "_id": 456,
+    "name": "sports",
+    "last": false
+  },
+  {
+    "_id": 567,
+    "name": "entertainment",
+    "last": true
+  }
+]

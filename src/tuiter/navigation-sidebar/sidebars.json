@@ -1,0 +1,66 @@
+[
+    {
+        "_id": 123,
+        "stack": false,
+        "source": "/",
+        "iconMain": "fa-brands fa-twitter",
+        "iconSub": "",
+        "name": ""
+    },
+    {
+        "_id": 234,
+        "stack": false,
+        "iconMain": "fa-solid fa-home",
+        "iconSub": "",
+        "name": "home"
+    },
+    {
+        "_id": 345,
+        "stack": false,
+        "iconMain": "fa-solid fa-hashtag",
+        "iconSub": "",
+        "name": "explore"
+    },
+    {
+        "_id": 456,
+        "stack": false,
+        "iconMain": "fa-regular fa-bell",
+        "iconSub": "",
+        "name": "notifications"
+    },
+    {
+        "_id": 567,
+        "stack": false,
+        "iconMain": "fa-regular fa-envelope",
+        "iconSub": "",
+        "name": "messages"
+    },
+    {
+        "_id": 678,
+        "stack": false,
+        "iconMain": "fa-regular fa-bookmark",
+        "iconSub": "",
+        "name": "bookmarks"
+    },
+    {
+        "_id": 789,
+        "stack": false,
+        "iconMain": "fa-solid fa-list",
+        "iconSub": "",
+        "name": "lists"
+    },
+    {
+        "_id": 890,
+        "stack": false,
+        "iconMain": "fa-regular fa-user",
+        "iconSub": "",
+        "name": "profile"
+    },
+    {
+        "_id": 901,
+        "stack": true,
+        "iconMain": "far fa-circle",
+        "iconSub": "fas fa-ellipsis-h",
+        "name": "more"
+    }
+]
